@@ -69,7 +69,7 @@ composer update
 
 | 名称 | 类别 | 用途 |
 | --- | --- | --- |
-| `config.allow-plugins` | 配置键 | 必须允许 `super-kernel/composer-source-reference-plugin`，否则 Composer 不会运行它。 |
+| `config.allow-plugins` | Composer 键 | 必须允许 `super-kernel/composer-source-reference-plugin`，否则 Composer 不会运行它。 |
 | `SuperKernel\ComposerSourceReferencePlugin\Plugin` | 类 | Composer 激活的插件；它在 Composer 构建依赖池时计算引用。 |
 
 ## 需要了解的行为

@@ -69,7 +69,7 @@ composer update
 
 | Name | Kind | Purpose |
 | --- | --- | --- |
-| `config.allow-plugins` | Configuration key | Must permit `super-kernel/composer-source-reference-plugin`, or Composer does not run it. |
+| `config.allow-plugins` | Composer key | Must permit `super-kernel/composer-source-reference-plugin`, or Composer does not run it. |
 | `SuperKernel\ComposerSourceReferencePlugin\Plugin` | Class | The plugin Composer activates; it computes the references while Composer builds its dependency pool. |
 
 ## Behavior to know
